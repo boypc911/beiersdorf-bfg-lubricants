@@ -1,48 +1,82 @@
 const translations = {
   zh: {
-    brandSub: "石油化工产品展示",
+    brandSub: "石油化工",
     navCompany: "公司",
+    navLines: "产品线",
     navProducts: "产品",
     navQuality: "质量",
     navContact: "联系",
-    heroEyebrow: "BFG 润滑油产品目录",
-    heroTitle: "用产品分类快速找到合适的润滑解决方案",
-    heroText: "汇集发动机油、变速箱油、柴油机油、齿轮油、液压油、防冻液等产品，并提供详细产品图页查看。",
+    heroEyebrow: "润滑油产品手册",
+    heroTitle: "质量成就差异，经典铸就品牌。",
+    heroText: "BEIERSDORF 专注润滑油与汽车养护产品研发、检测和生产，服务乘用车、商用车与工业传动系统。",
     exploreProducts: "查看产品",
-    contactSales: "联系销售",
-    statProducts: "产品详细图页",
-    statCategories: "产品分类",
-    statLanguages: "语言版本",
-    aboutEyebrow: "关于 BEIERSDORF",
-    aboutTitle: "面向乘用车、商用车和工业设备的润滑产品组合。",
-    aboutCard1Title: "分类清晰",
-    aboutCard1Text: "按照发动机油、变速箱油、柴油机油、液压油等用途组织产品，便于快速筛选。",
-    aboutCard2Title: "详细图页",
-    aboutCard2Text: "每个产品保留手册原始详细页面，规格、应用范围和典型数据可以直接查看。",
-    aboutCard3Title: "多语言展示",
-    aboutCard3Text: "页面导航、分类、产品摘要支持中文、英文和俄文切换。",
-    productsEyebrow: "产品中心",
-    productsTitle: "按系列和应用场景浏览 BFG 产品。",
+    learnCompany: "了解公司",
+    metricCapacity: "DCS 自动调和产线",
+    metricInstruments: "检测仪器",
+    metricProducts: "产品详细图页",
+    companyEyebrow: "BEIERSDORF 天津",
+    companyTitle: "集研发、检测、生产和仓储于一体的现代化高新技术企业。",
+    companyText: "公司坚持节能环保方向，与检测研究机构协作，开发满足客户实际需求的润滑油和汽车养护产品。",
+    companyPoint1: "华北工厂",
+    companyPoint2: "检测与研发中心",
+    companyPoint3: "生产调和区",
+    companyPoint4: "原料仓储区",
+    sceneEyebrow: "中国天津",
+    sceneTitle: "工厂实景、研发能力与配送服务支撑。",
+    scene1Title: "先进调和设备",
+    scene1Text: "DCS 自动生产与灌装设备支持自动称量、调和和控制。",
+    scene2Title: "检测与研发中心",
+    scene2Text: "六十余套实验和检测设备支持润滑产品理化指标测试。",
+    scene3Title: "销售配送团队",
+    scene3Text: "年轻、专业的团队支持产品服务、市场协作和客户响应。",
+    linesEyebrow: "BFG 产品线",
+    linesTitle: "覆盖欧洲、亚洲和商用应用的润滑产品组合。",
+    all: "全部",
+    lineEngine: "发动机油",
+    lineTransmission: "变速箱油",
+    lineDiesel: "柴油与齿轮",
+    line1Title: "酯类全合成发动机油",
+    line1Text: "ACEA C5、C3 和 API SP 系列，面向欧洲汽油和轻型柴油车型。",
+    line1A: "粘度等级：0W-20、0W-30、0W-40、5W-30",
+    line1B: "适合清洁发动机表现和低温启动",
+    line1C: "包装：1L、55L、170kg",
+    line2Title: "酯类全合成发动机油",
+    line2Text: "API SP 与 ILSAC GF-6 / GF-5 产品，适合汽油、涡轮增压直喷与混动车型。",
+    line2A: "提升热稳定性与氧化稳定性",
+    line2B: "适合频繁启停的城市工况",
+    line2C: "包装：1L、4L、55L、170kg",
+    line3Title: "自动变速箱油",
+    line3Text: "全合成 ATF、CVTF 和 DCTF 产品，覆盖多种车型和换挡需求。",
+    line3A: "ATF-6、ATF-9、CVTF、DCTF 可选",
+    line3B: "耐磨保护和清洁传动系统",
+    line3C: "适合多种自动变速系统",
+    line4Title: "柴油机油与齿轮油",
+    line4Text: "API CK-4 柴油机油与 API GL-5 重负荷齿轮油，面向商用车和工程机械。",
+    line4A: "不同系列支持 50,000 / 100,000 公里换油周期",
+    line4B: "支持 EGR、DPF、DOCS 后处理发动机",
+    line4C: "包装：1L、4L、18L、55L、170kg",
+    lineReferenceText: "产品线参考图保留为视觉资料，上方卡片则把同样内容整理成更适合网页浏览的产品线结构。",
+    productsEyebrow: "产品目录",
+    productsTitle: "保留产品详细图页，便于查询规格和典型数据。",
     searchLabel: "搜索",
     closeDetail: "返回产品列表",
     detailCategory: "分类",
     detailViscosity: "粘度/等级",
     detailPacking: "包装",
     detailApproval: "认证/规格",
-    detailNote: "详细性能优势、适用范围和典型数据请查看左侧产品图页。",
+    detailNote: "详细性能优势、适用范围和典型数据请查看产品图页。",
     qualityEyebrow: "质量体系",
-    qualityTitle: "覆盖乘用车、商用车和工业设备的多规格产品。",
-    qualityText: "产品图页包含 API、ACEA、ILSAC、OEM 规格以及典型检测数据，便于客户根据应用场景对比选择。",
+    qualityTitle: "经过认证、测试，并面向长期可靠性打造。",
+    qualityText: "BEIERSDORF 具备高新技术企业资质，并拥有质量、环境、汽车行业和产品相关认证。",
     contactEyebrow: "联系",
     contactTitle: "BEIERSDORF（天津）石油化工有限公司",
     contactText: "网站：www.beiersdorfchina.com · 电话：4000-987-256",
     callButton: "拨打 4000-987-256",
     footerText: "基于产品手册整理的多语言展示网站",
     viewDetail: "查看详情",
-    all: "全部",
     categories: {
       engine: "汽油发动机油",
-      transmission: "自动/无级变速箱油",
+      transmission: "变速箱油",
       brake: "制动液",
       diesel: "柴油发动机油",
       gear: "齿轮油",
@@ -57,27 +91,62 @@ const translations = {
   en: {
     brandSub: "Petroleum & Chemical",
     navCompany: "Company",
+    navLines: "Product Lines",
     navProducts: "Products",
     navQuality: "Quality",
     navContact: "Contact",
-    heroEyebrow: "BFG Lubricant Catalog",
-    heroTitle: "Find lubricant solutions by product classification.",
-    heroText: "Browse engine oils, transmission fluids, diesel oils, gear oils, hydraulic oils, coolants and detailed product pages.",
+    heroEyebrow: "Product Manual of Lubricant",
+    heroTitle: "Quality makes the difference. Classics make the brand.",
+    heroText: "BEIERSDORF develops lubricant and car care products for passenger cars, commercial vehicles and industrial driveline systems.",
     exploreProducts: "Explore Products",
-    contactSales: "Contact Sales",
-    statProducts: "detail pages",
-    statCategories: "categories",
-    statLanguages: "languages",
-    aboutEyebrow: "About BEIERSDORF",
-    aboutTitle: "A lubricant portfolio for passenger cars, commercial vehicles and industrial equipment.",
-    aboutCard1Title: "Clear categories",
-    aboutCard1Text: "Products are organized by use, including engine oil, transmission fluid, diesel oil and hydraulic oil.",
-    aboutCard2Title: "Detailed pages",
-    aboutCard2Text: "Each item keeps its original manual page for specifications, applications and typical data.",
-    aboutCard3Title: "Multilingual",
-    aboutCard3Text: "Navigation, categories and product summaries switch between Chinese, English and Russian.",
-    productsEyebrow: "Product Center",
-    productsTitle: "Browse BFG products by series and application.",
+    learnCompany: "Company Profile",
+    metricCapacity: "DCS blending capacity line",
+    metricInstruments: "testing instruments",
+    metricProducts: "detailed product pages",
+    companyEyebrow: "BEIERSDORF Tianjin",
+    companyTitle: "A modern high-tech enterprise focused on lubricant R&D, testing and production.",
+    companyText: "The company is committed to energy saving and environmental protection. It develops lubricants and car care products that meet practical customer needs.",
+    companyPoint1: "North China factory",
+    companyPoint2: "Testing and R&D center",
+    companyPoint3: "Production and blending area",
+    companyPoint4: "Raw material storage area",
+    sceneEyebrow: "Tianjin, China",
+    sceneTitle: "Factory scenes, R&D capability and distribution support.",
+    scene1Title: "State-of-the-art blending equipment",
+    scene1Text: "DCS automatic production and filling equipment supports accurate weighing, blending and control.",
+    scene2Title: "Testing and R&D center",
+    scene2Text: "More than sixty sets of laboratory and testing equipment support physical and chemical indicator testing.",
+    scene3Title: "Distribution team",
+    scene3Text: "A young, energetic team supports product service, cooperation and market response.",
+    linesEyebrow: "BFG Product Lines",
+    linesTitle: "Lubricant portfolio for European, Asian and commercial applications.",
+    all: "All",
+    lineEngine: "Engine Oil",
+    lineTransmission: "Transmission",
+    lineDiesel: "Diesel & Gear",
+    line1Title: "Ester Synthetic Engine Oil",
+    line1Text: "ACEA C5, C3 and API SP products for European gasoline and light diesel models.",
+    line1A: "Viscosity grades: 0W-20, 0W-30, 0W-40, 5W-30",
+    line1B: "Designed for clean engine performance and low-temperature start-up",
+    line1C: "Packaging: 1L, 55L, 170kg",
+    line2Title: "Ester Synthetic Engine Oil",
+    line2Text: "API SP and ILSAC GF-6 / GF-5 products for gasoline engines and hybrid vehicles.",
+    line2A: "Improved thermal stability and oxidative stability",
+    line2B: "Supports frequent start-stop urban driving",
+    line2C: "Packaging: 1L, 4L, 55L, 170kg",
+    line3Title: "Automatic Transmission Fluids",
+    line3Text: "Fully synthetic ATF, CVTF and DCTF products developed for wide model coverage.",
+    line3A: "ATF-6, ATF-9, CVTF and DCTF options",
+    line3B: "Wear resistance and clean transmission operation",
+    line3C: "Suitable for a wide range of AT systems",
+    line4Title: "Diesel Engine Oil & Gear Oil",
+    line4Text: "API CK-4 diesel oils and API GL-5 gear oils for commercial vehicles and construction machinery.",
+    line4A: "Long oil-change periods up to 50,000 km / 100,000 km by series",
+    line4B: "Supports EGR, DPF and DOCS-equipped engines",
+    line4C: "Packaging: 1L, 4L, 18L, 55L, 170kg",
+    lineReferenceText: "The manual product-line summary is kept here as a visual reference, while the cards above turn the same information into a web-friendly browsing experience.",
+    productsEyebrow: "Product Catalog",
+    productsTitle: "Detailed product pages are retained for specification lookup.",
     searchLabel: "Search",
     closeDetail: "Back to products",
     detailCategory: "Category",
@@ -86,15 +155,14 @@ const translations = {
     detailApproval: "Approval / specification",
     detailNote: "See the product image for performance advantages, applications and typical data.",
     qualityEyebrow: "Quality System",
-    qualityTitle: "Multiple specifications for passenger, commercial and industrial applications.",
-    qualityText: "Product pages include API, ACEA, ILSAC, OEM specifications and typical test data for comparison.",
+    qualityTitle: "Certified, tested and built for long-term reliability.",
+    qualityText: "BEIERSDORF highlights high-tech enterprise qualification and multiple quality, environmental, automotive and product certifications.",
     contactEyebrow: "Contact",
     contactTitle: "BEIERSDORF (Tianjin) Petroleum and Chemical Corporation",
     contactText: "Website: www.beiersdorfchina.com · Tel: 4000-987-256",
     callButton: "Call 4000-987-256",
     footerText: "Multilingual showcase based on the product manual",
     viewDetail: "View Details",
-    all: "All",
     categories: {
       engine: "Gasoline engine oil",
       transmission: "Transmission fluid",
@@ -110,46 +178,80 @@ const translations = {
     }
   },
   ru: {
-    brandSub: "Нефтехимическая продукция",
+    brandSub: "Нефтехимия",
     navCompany: "Компания",
+    navLines: "Линейки",
     navProducts: "Продукты",
     navQuality: "Качество",
     navContact: "Контакты",
-    heroEyebrow: "Каталог смазочных материалов BFG",
-    heroTitle: "Подберите смазочное решение по категории продукта.",
-    heroText: "Каталог включает моторные масла, трансмиссионные жидкости, дизельные масла, редукторные масла, гидравлические масла и охлаждающие жидкости.",
+    heroEyebrow: "Каталог смазочных материалов",
+    heroTitle: "Качество создает отличие. Классика создает бренд.",
+    heroText: "BEIERSDORF разрабатывает смазочные материалы и автохимию для легковых, коммерческих и промышленных применений.",
     exploreProducts: "Смотреть продукты",
-    contactSales: "Связаться",
-    statProducts: "подробных страниц",
-    statCategories: "категорий",
-    statLanguages: "языка",
-    aboutEyebrow: "О BEIERSDORF",
-    aboutTitle: "Линейка смазочных материалов для легковых, коммерческих и промышленных применений.",
-    aboutCard1Title: "Понятные категории",
-    aboutCard1Text: "Продукты сгруппированы по назначению: моторные масла, трансмиссионные жидкости, дизельные и гидравлические масла.",
-    aboutCard2Title: "Подробные страницы",
-    aboutCard2Text: "Для каждого продукта сохранена исходная страница руководства со спецификациями и типовыми данными.",
-    aboutCard3Title: "Три языка",
-    aboutCard3Text: "Навигация, категории и краткие сведения переключаются между китайским, английским и русским.",
-    productsEyebrow: "Каталог продуктов",
-    productsTitle: "Просмотр продуктов BFG по серии и применению.",
+    learnCompany: "О компании",
+    metricCapacity: "линия смешивания DCS",
+    metricInstruments: "приборов контроля",
+    metricProducts: "подробных страниц",
+    companyEyebrow: "BEIERSDORF Тяньцзинь",
+    companyTitle: "Современное высокотехнологичное предприятие для R&D, испытаний и производства смазочных материалов.",
+    companyText: "Компания ориентирована на энергосбережение и экологичность, создавая продукты под реальные потребности клиентов.",
+    companyPoint1: "Завод в Северном Китае",
+    companyPoint2: "Центр испытаний и R&D",
+    companyPoint3: "Производство и смешивание",
+    companyPoint4: "Склад сырья",
+    sceneEyebrow: "Тяньцзинь, Китай",
+    sceneTitle: "Производство, лаборатория и поддержка поставок.",
+    scene1Title: "Современное оборудование",
+    scene1Text: "DCS-система поддерживает точное дозирование, смешивание и контроль.",
+    scene2Title: "Центр испытаний и R&D",
+    scene2Text: "Более 60 комплектов лабораторного оборудования для физико-химических испытаний.",
+    scene3Title: "Команда дистрибуции",
+    scene3Text: "Профессиональная команда поддерживает сервис, сотрудничество и реакцию рынка.",
+    linesEyebrow: "Линейки BFG",
+    linesTitle: "Портфель масел для европейских, азиатских и коммерческих применений.",
+    all: "Все",
+    lineEngine: "Моторные масла",
+    lineTransmission: "Трансмиссия",
+    lineDiesel: "Дизель и редуктор",
+    line1Title: "Эстеровое синтетическое моторное масло",
+    line1Text: "ACEA C5, C3 и API SP для европейских бензиновых и легких дизельных моделей.",
+    line1A: "Вязкость: 0W-20, 0W-30, 0W-40, 5W-30",
+    line1B: "Для чистой работы двигателя и холодного запуска",
+    line1C: "Фасовка: 1L, 55L, 170kg",
+    line2Title: "Эстеровое синтетическое моторное масло",
+    line2Text: "API SP и ILSAC GF-6 / GF-5 для бензиновых и гибридных автомобилей.",
+    line2A: "Улучшенная термо- и окислительная стабильность",
+    line2B: "Подходит для частых старт-стоп режимов",
+    line2C: "Фасовка: 1L, 4L, 55L, 170kg",
+    line3Title: "Автоматические трансмиссионные жидкости",
+    line3Text: "ATF, CVTF и DCTF для широкого охвата моделей.",
+    line3A: "ATF-6, ATF-9, CVTF и DCTF",
+    line3B: "Защита от износа и чистая работа трансмиссии",
+    line3C: "Для широкого спектра AT-систем",
+    line4Title: "Дизельные масла и редукторные масла",
+    line4Text: "API CK-4 и API GL-5 для коммерческого транспорта и строительной техники.",
+    line4A: "Интервалы замены до 50 000 / 100 000 км",
+    line4B: "Поддержка двигателей с EGR, DPF и DOCS",
+    line4C: "Фасовка: 1L, 4L, 18L, 55L, 170kg",
+    lineReferenceText: "Сводная схема продуктовых линий сохранена как визуальная справка, а карточки выше превращают эти данные в удобный для сайта обзор.",
+    productsEyebrow: "Каталог",
+    productsTitle: "Подробные страницы сохранены для проверки спецификаций.",
     searchLabel: "Поиск",
     closeDetail: "Назад к списку",
     detailCategory: "Категория",
     detailViscosity: "Вязкость / класс",
     detailPacking: "Фасовка",
     detailApproval: "Допуск / спецификация",
-    detailNote: "Подробные преимущества, применение и типовые данные смотрите на изображении продукта.",
+    detailNote: "Преимущества, применение и типовые данные смотрите на изображении продукта.",
     qualityEyebrow: "Система качества",
-    qualityTitle: "Разные спецификации для легковых, коммерческих и промышленных применений.",
-    qualityText: "Страницы продуктов содержат API, ACEA, ILSAC, OEM-спецификации и типовые испытательные данные.",
+    qualityTitle: "Сертифицировано, испытано и создано для долгой надежности.",
+    qualityText: "BEIERSDORF имеет статус высокотехнологичного предприятия и ряд отраслевых сертификаций.",
     contactEyebrow: "Контакты",
     contactTitle: "BEIERSDORF (Tianjin) Petroleum and Chemical Corporation",
     contactText: "Сайт: www.beiersdorfchina.com · Тел.: 4000-987-256",
     callButton: "Позвонить 4000-987-256",
     footerText: "Многоязычная витрина на основе каталога продукции",
     viewDetail: "Подробнее",
-    all: "Все",
     categories: {
       engine: "Бензиновое моторное масло",
       transmission: "Трансмиссионная жидкость",
@@ -233,17 +335,18 @@ const products = [
 }));
 
 const categoryOrder = ["all", "engine", "transmission", "diesel", "gear", "hydraulic", "brake", "gas", "coolant", "steering", "motorcycle", "machinery"];
-let currentLang = localStorage.getItem("bfgLang") || "zh";
+let currentLang = localStorage.getItem("bfgLang") || "en";
 let currentCategory = "all";
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
-function t(key) {
+function tr(key) {
   return translations[currentLang][key] || translations.en[key] || key;
 }
 
 function categoryLabel(category) {
+  if (category === "all") return tr("all");
   return translations[currentLang].categories[category] || translations.en.categories[category] || category;
 }
 
@@ -256,19 +359,17 @@ function localizedTitle(product) {
 function applyTranslations() {
   document.documentElement.lang = currentLang === "zh" ? "zh-CN" : currentLang;
   $$("[data-i18n]").forEach((node) => {
-    node.textContent = t(node.dataset.i18n);
+    node.textContent = tr(node.dataset.i18n);
   });
-  $("#productSearch").placeholder = currentLang === "zh" ? "系列、分类、粘度、规格" : currentLang === "ru" ? "Серия, категория, вязкость" : "Series, category, viscosity";
+  const search = $("#productSearch");
+  search.placeholder = currentLang === "zh" ? "系列、分类、粘度、规格" : currentLang === "ru" ? "Серия, категория, вязкость" : "Series, category, viscosity";
   $$(".language-switch button").forEach((button) => button.classList.toggle("active", button.dataset.lang === currentLang));
 }
 
 function renderTabs() {
-  $("#categoryTabs").innerHTML = categoryOrder
-    .map((category) => {
-      const label = category === "all" ? t("all") : categoryLabel(category);
-      return `<button class="tab ${category === currentCategory ? "active" : ""}" type="button" data-category="${category}">${label}</button>`;
-    })
-    .join("");
+  $("#categoryTabs").innerHTML = categoryOrder.map((category) => (
+    `<button class="tab ${category === currentCategory ? "active" : ""}" type="button" data-category="${category}">${categoryLabel(category)}</button>`
+  )).join("");
 }
 
 function productMatches(product, query) {
@@ -281,24 +382,20 @@ function productMatches(product, query) {
 function renderProducts() {
   const query = $("#productSearch").value.trim();
   const visible = products.filter((product) => productMatches(product, query));
-  $("#productGrid").innerHTML = visible
-    .map(
-      (product) => `
-        <article class="product-card">
-          <button type="button" data-product="${product.id}" aria-label="${localizedTitle(product)}">
-            <span class="product-thumb"><img src="${product.image}" alt="${localizedTitle(product)}" loading="lazy" /></span>
-            <span class="product-meta">
-              <span class="product-code">${product.series}</span>
-              <strong>${localizedTitle(product)}</strong>
-              <span>${categoryLabel(product.category)} · ${product.approval}</span>
-              <span>${product.viscosity} · ${product.packing}</span>
-              <em>${t("viewDetail")}</em>
-            </span>
-          </button>
-        </article>
-      `
-    )
-    .join("");
+  $("#productGrid").innerHTML = visible.map((product) => `
+    <article class="product-card">
+      <button type="button" data-product="${product.id}" aria-label="${localizedTitle(product)}">
+        <span class="product-thumb"><img src="${product.image}" alt="${localizedTitle(product)}" loading="lazy" /></span>
+        <span class="product-meta">
+          <span class="product-code">${product.series}</span>
+          <strong>${localizedTitle(product)}</strong>
+          <span>${categoryLabel(product.category)} · ${product.approval}</span>
+          <span>${product.viscosity} · ${product.packing}</span>
+          <em>${tr("viewDetail")}</em>
+        </span>
+      </button>
+    </article>
+  `).join("");
 }
 
 function showDetail(productId) {
@@ -312,9 +409,7 @@ function showDetail(productId) {
   $("#detailViscosityValue").textContent = product.viscosity;
   $("#detailPackingValue").textContent = product.packing;
   $("#detailApprovalValue").textContent = product.approval;
-  $("#detailTags").innerHTML = [product.series, categoryLabel(product.category), product.viscosity, product.approval]
-    .map((tag) => `<span>${tag}</span>`)
-    .join("");
+  $("#detailTags").innerHTML = [product.series, categoryLabel(product.category), product.viscosity, product.approval].map((tag) => `<span>${tag}</span>`).join("");
   $("#productDetail").hidden = false;
   $("#productDetail").scrollIntoView({ behavior: "smooth", block: "start" });
   history.replaceState(null, "", `#product-${product.id}`);
@@ -324,11 +419,6 @@ function closeDetail() {
   $("#productDetail").hidden = true;
   history.replaceState(null, "", "#products");
   $("#products").scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
-function initFromHash() {
-  const match = location.hash.match(/^#product-(p\d+)$/);
-  if (match) showDetail(match[1]);
 }
 
 $(".menu-button").addEventListener("click", () => {
@@ -352,10 +442,6 @@ $(".language-switch").addEventListener("click", (event) => {
   applyTranslations();
   renderTabs();
   renderProducts();
-  if (!$("#productDetail").hidden) {
-    const productId = location.hash.replace("#product-", "");
-    showDetail(productId);
-  }
 });
 
 $("#categoryTabs").addEventListener("click", (event) => {
@@ -364,6 +450,16 @@ $("#categoryTabs").addEventListener("click", (event) => {
   currentCategory = button.dataset.category;
   renderTabs();
   renderProducts();
+});
+
+$(".line-tabs").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-line-filter]");
+  if (!button) return;
+  const filter = button.dataset.lineFilter;
+  $$(".line-tabs button").forEach((item) => item.classList.toggle("active", item === button));
+  $$(".line-grid article").forEach((card) => {
+    card.hidden = filter !== "all" && card.dataset.line !== filter;
+  });
 });
 
 $("#productGrid").addEventListener("click", (event) => {
@@ -377,4 +473,6 @@ $("#productSearch").addEventListener("input", renderProducts);
 applyTranslations();
 renderTabs();
 renderProducts();
-initFromHash();
+
+const hashMatch = location.hash.match(/^#product-(p\d+)$/);
+if (hashMatch) showDetail(hashMatch[1]);
