@@ -3,105 +3,176 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BFG Lubricants Product Catalog</title>
-    <meta
-      name="description"
-      content="BEIERSDORF BFG lubricant catalog with product classifications, detail pages, and Chinese, English, Russian language switching."
-    />
+    <title>BEIERSDORF BFG Lubricants</title>
+    <meta name="description" content="BEIERSDORF BFG lubricant showcase with company profile, product lines, product details and multilingual switching." />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="BFG home">
+      <a class="brand" href="#top" aria-label="BEIERSDORF home">
         <span class="brand-mark">BFG</span>
         <span>
           <strong>BEIERSDORF</strong>
-          <small data-i18n="brandSub">石油化工产品展示</small>
+          <small data-i18n="brandSub">Petroleum & Chemical</small>
         </span>
       </a>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="#company" data-i18n="navCompany">公司</a>
-        <a href="#products" data-i18n="navProducts">产品</a>
-        <a href="#quality" data-i18n="navQuality">质量</a>
-        <a href="#contact" data-i18n="navContact">联系</a>
+        <a href="#company" data-i18n="navCompany">Company</a>
+        <a href="#lines" data-i18n="navLines">Product Lines</a>
+        <a href="#products" data-i18n="navProducts">Products</a>
+        <a href="#quality" data-i18n="navQuality">Quality</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
       <div class="language-switch" aria-label="Language">
-        <button type="button" data-lang="zh" class="active">中</button>
-        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="zh">中</button>
+        <button type="button" data-lang="en" class="active">EN</button>
         <button type="button" data-lang="ru">RU</button>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
+        <img class="hero-bg" src="./assets/company/hero-impact.png" alt="BFG lubricant products with oil splash" />
+        <div class="hero-shade"></div>
         <div class="hero-copy">
-          <p class="eyebrow" data-i18n="heroEyebrow">BFG 润滑油产品目录</p>
-          <h1 data-i18n="heroTitle">用产品分类快速找到合适的润滑解决方案</h1>
+          <p class="eyebrow" data-i18n="heroEyebrow">Product Manual of Lubricant</p>
+          <h1 data-i18n="heroTitle">Quality makes the difference. Classics make the brand.</h1>
           <p class="hero-text" data-i18n="heroText">
-            汇集发动机油、变速箱油、柴油机油、齿轮油、液压油、防冻液等产品，并提供详细产品图页查看。
+            BEIERSDORF develops lubricant and car care products for passenger cars, commercial vehicles and industrial driveline systems.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#products" data-i18n="exploreProducts">查看产品</a>
-            <a class="button secondary" href="#contact" data-i18n="contactSales">联系销售</a>
+            <a class="button primary" href="#products" data-i18n="exploreProducts">Explore Products</a>
+            <a class="button secondary" href="#company" data-i18n="learnCompany">Company Profile</a>
           </div>
-          <dl class="quick-stats">
-            <div>
-              <dt>53</dt>
-              <dd data-i18n="statProducts">产品详细图页</dd>
-            </div>
-            <div>
-              <dt>11</dt>
-              <dd data-i18n="statCategories">产品分类</dd>
-            </div>
-            <div>
-              <dt>3</dt>
-              <dd data-i18n="statLanguages">语言版本</dd>
-            </div>
-          </dl>
         </div>
-        <figure class="hero-visual">
-          <img src="./assets/products/page_004_product_01.jpg" alt="BFG JIN KU ester synthetic engine oil" />
+        <dl class="hero-metrics">
+          <div><dt>100,000t</dt><dd data-i18n="metricCapacity">DCS blending capacity line</dd></div>
+          <div><dt>60+</dt><dd data-i18n="metricInstruments">testing instruments</dd></div>
+          <div><dt>53</dt><dd data-i18n="metricProducts">detailed product pages</dd></div>
+        </dl>
+      </section>
+
+      <section class="company-intro" id="company">
+        <div class="intro-copy">
+          <p class="eyebrow" data-i18n="companyEyebrow">BEIERSDORF (Tianjin)</p>
+          <h2 data-i18n="companyTitle">A modern high-tech enterprise focused on lubricant R&D, testing and production.</h2>
+          <p data-i18n="companyText">
+            The company is committed to energy saving and environmental protection. It cooperates with testing institutions and focuses on lubricants and car care products that meet practical customer needs.
+          </p>
+          <div class="intro-points">
+            <span data-i18n="companyPoint1">North China factory</span>
+            <span data-i18n="companyPoint2">Testing and R&D center</span>
+            <span data-i18n="companyPoint3">Production and blending area</span>
+            <span data-i18n="companyPoint4">Raw material storage area</span>
+          </div>
+        </div>
+        <figure class="manual-frame">
+          <img src="./assets/company/manual-cover.jpg" alt="BEIERSDORF product manual cover" />
         </figure>
       </section>
 
-      <section class="section company" id="company">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="aboutEyebrow">关于 BEIERSDORF</p>
-          <h2 data-i18n="aboutTitle">面向乘用车、商用车和工业设备的润滑产品组合。</h2>
+      <section class="scene-section">
+        <figure class="scene-main">
+          <img src="./assets/company/factory-scenes.jpg" alt="BEIERSDORF factory, warehouse, R&D and team scenes" />
+        </figure>
+        <div class="scene-copy">
+          <p class="eyebrow" data-i18n="sceneEyebrow">Tianjin, China</p>
+          <h2 data-i18n="sceneTitle">Factory scenes, R&D capability and distribution support.</h2>
+          <div class="scene-grid">
+            <article>
+              <strong data-i18n="scene1Title">State-of-the-art blending equipment</strong>
+              <p data-i18n="scene1Text">DCS automatic production and filling equipment supports accurate weighing, blending and control.</p>
+            </article>
+            <article>
+              <strong data-i18n="scene2Title">Testing and R&D center</strong>
+              <p data-i18n="scene2Text">More than sixty sets of laboratory and testing equipment support physical and chemical indicator testing.</p>
+            </article>
+            <article>
+              <strong data-i18n="scene3Title">Distribution team</strong>
+              <p data-i18n="scene3Text">A young, energetic team supports product service, cooperation and market response.</p>
+            </article>
+          </div>
         </div>
-        <div class="company-grid">
-          <article>
-            <h3 data-i18n="aboutCard1Title">分类清晰</h3>
-            <p data-i18n="aboutCard1Text">按照发动机油、变速箱油、柴油机油、液压油等用途组织产品，便于快速筛选。</p>
+      </section>
+
+      <section class="line-section" id="lines">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow" data-i18n="linesEyebrow">BFG Product Lines</p>
+            <h2 data-i18n="linesTitle">Lubricant portfolio for European, Asian and commercial applications.</h2>
+          </div>
+          <div class="line-tabs">
+            <button class="active" type="button" data-line-filter="all" data-i18n="all">All</button>
+            <button type="button" data-line-filter="engine" data-i18n="lineEngine">Engine Oil</button>
+            <button type="button" data-line-filter="transmission" data-i18n="lineTransmission">Transmission</button>
+            <button type="button" data-line-filter="diesel" data-i18n="lineDiesel">Diesel & Gear</button>
+          </div>
+        </div>
+        <div class="line-grid">
+          <article data-line="engine">
+            <span>JIN KU</span>
+            <h3 data-i18n="line1Title">Ester Synthetic Engine Oil</h3>
+            <p data-i18n="line1Text">ACEA C5, C3 and API SP products for European gasoline and light diesel models.</p>
+            <ul>
+              <li data-i18n="line1A">Viscosity grades: 0W-20, 0W-30, 0W-40, 5W-30</li>
+              <li data-i18n="line1B">Designed for clean engine performance and low-temperature start-up</li>
+              <li data-i18n="line1C">Packaging: 1L, 55L, 170kg</li>
+            </ul>
           </article>
-          <article>
-            <h3 data-i18n="aboutCard2Title">详细图页</h3>
-            <p data-i18n="aboutCard2Text">每个产品保留手册原始详细页面，规格、应用范围和典型数据可以直接查看。</p>
+          <article data-line="engine">
+            <span>JIN XUAN</span>
+            <h3 data-i18n="line2Title">Ester Synthetic Engine Oil</h3>
+            <p data-i18n="line2Text">API SP and ILSAC GF-6 / GF-5 products for gasoline engines and hybrid vehicles.</p>
+            <ul>
+              <li data-i18n="line2A">Improved thermal stability and oxidative stability</li>
+              <li data-i18n="line2B">Supports frequent start-stop urban driving</li>
+              <li data-i18n="line2C">Packaging: 1L, 4L, 55L, 170kg</li>
+            </ul>
           </article>
-          <article>
-            <h3 data-i18n="aboutCard3Title">多语言展示</h3>
-            <p data-i18n="aboutCard3Text">页面导航、分类、产品摘要支持中文、英文和俄文切换。</p>
+          <article data-line="transmission">
+            <span>JIN XUAN</span>
+            <h3 data-i18n="line3Title">Automatic Transmission Fluids</h3>
+            <p data-i18n="line3Text">Fully synthetic ATF, CVTF and DCTF products for wide model coverage.</p>
+            <ul>
+              <li data-i18n="line3A">ATF-6, ATF-9, CVTF and DCTF options</li>
+              <li data-i18n="line3B">Wear resistance and clean transmission operation</li>
+              <li data-i18n="line3C">Suitable for a wide range of AT systems</li>
+            </ul>
           </article>
+          <article data-line="diesel">
+            <span>JIN YUE</span>
+            <h3 data-i18n="line4Title">Diesel Engine Oil & Gear Oil</h3>
+            <p data-i18n="line4Text">API CK-4 diesel engine oils and API GL-5 gear oils for commercial vehicles and construction machinery.</p>
+            <ul>
+              <li data-i18n="line4A">Long oil-change periods up to 50,000 km / 100,000 km by series</li>
+              <li data-i18n="line4B">Supports EGR, DPF and DOCS-equipped engines</li>
+              <li data-i18n="line4C">Packaging: 1L, 4L, 18L, 55L, 170kg</li>
+            </ul>
+          </article>
+        </div>
+        <div class="reference-strip">
+          <p data-i18n="lineReferenceText">
+            The manual product-line summary is kept here as a visual reference, while the cards above turn the same information into a web-friendly browsing experience.
+          </p>
+          <figure class="reference-image">
+            <img src="./assets/company/product-lines-reference.png" alt="BFG product line reference" loading="lazy" />
+          </figure>
         </div>
       </section>
 
       <section class="section product-section" id="products">
         <div class="section-heading split">
           <div>
-            <p class="eyebrow" data-i18n="productsEyebrow">产品中心</p>
-            <h2 data-i18n="productsTitle">按系列和应用场景浏览 BFG 产品。</h2>
+            <p class="eyebrow" data-i18n="productsEyebrow">Product Catalog</p>
+            <h2 data-i18n="productsTitle">Detailed product pages are retained for specification lookup.</h2>
           </div>
-          <div class="catalog-tools">
-            <label class="search-box">
-              <span data-i18n="searchLabel">搜索</span>
-              <input id="productSearch" type="search" autocomplete="off" />
-            </label>
-          </div>
+          <label class="search-box">
+            <span data-i18n="searchLabel">Search</span>
+            <input id="productSearch" type="search" autocomplete="off" />
+          </label>
         </div>
         <div class="filter-tabs" id="categoryTabs" role="tablist" aria-label="Product category"></div>
         <div class="product-grid" id="productGrid"></div>
@@ -109,34 +180,20 @@
 
       <section class="product-detail" id="productDetail" hidden>
         <div class="detail-shell">
-          <button class="detail-close" type="button" data-i18n="closeDetail">返回产品列表</button>
+          <button class="detail-close" type="button" data-i18n="closeDetail">Back to products</button>
           <div class="detail-layout">
-            <div class="detail-image-wrap">
-              <img id="detailImage" alt="" />
-            </div>
+            <div class="detail-image-wrap"><img id="detailImage" alt="" /></div>
             <div class="detail-copy">
               <p class="eyebrow" id="detailSeries"></p>
               <h2 id="detailTitle"></h2>
               <div class="detail-tags" id="detailTags"></div>
               <dl class="detail-specs">
-                <div>
-                  <dt data-i18n="detailCategory">分类</dt>
-                  <dd id="detailCategoryValue"></dd>
-                </div>
-                <div>
-                  <dt data-i18n="detailViscosity">粘度/等级</dt>
-                  <dd id="detailViscosityValue"></dd>
-                </div>
-                <div>
-                  <dt data-i18n="detailPacking">包装</dt>
-                  <dd id="detailPackingValue"></dd>
-                </div>
-                <div>
-                  <dt data-i18n="detailApproval">认证/规格</dt>
-                  <dd id="detailApprovalValue"></dd>
-                </div>
+                <div><dt data-i18n="detailCategory">Category</dt><dd id="detailCategoryValue"></dd></div>
+                <div><dt data-i18n="detailViscosity">Viscosity / grade</dt><dd id="detailViscosityValue"></dd></div>
+                <div><dt data-i18n="detailPacking">Packing</dt><dd id="detailPackingValue"></dd></div>
+                <div><dt data-i18n="detailApproval">Approval / specification</dt><dd id="detailApprovalValue"></dd></div>
               </dl>
-              <p class="detail-note" data-i18n="detailNote">详细性能优势、适用范围和典型数据请查看左侧产品图页。</p>
+              <p class="detail-note" data-i18n="detailNote">See the product image for performance advantages, applications and typical data.</p>
             </div>
           </div>
         </div>
@@ -144,35 +201,36 @@
 
       <section class="quality" id="quality">
         <div class="quality-copy">
-          <p class="eyebrow" data-i18n="qualityEyebrow">质量体系</p>
-          <h2 data-i18n="qualityTitle">覆盖乘用车、商用车和工业设备的多规格产品。</h2>
-          <p data-i18n="qualityText">
-            产品图页包含 API、ACEA、ILSAC、OEM 规格以及典型检测数据，便于客户根据应用场景对比选择。
-          </p>
+          <p class="eyebrow" data-i18n="qualityEyebrow">Quality System</p>
+          <h2 data-i18n="qualityTitle">Certified, tested and built for long-term reliability.</h2>
+          <p data-i18n="qualityText">BEIERSDORF highlights high-tech enterprise qualification and multiple quality, environmental, automotive and product certifications.</p>
         </div>
         <div class="cert-grid">
+          <span>IATF 16949:2016</span>
+          <span>ISO 9001:2015</span>
+          <span>ISO 14001:2015</span>
+          <span>ISO 45001:2018</span>
           <span>API</span>
-          <span>ACEA</span>
           <span>ILSAC</span>
-          <span>CK-4</span>
-          <span>GL-5</span>
-          <span>CNG/LNG</span>
+          <span>ACEA</span>
+          <span>Mercedes-Benz OEM</span>
+          <span>Volvo OEM</span>
         </div>
       </section>
 
       <section class="contact-band" id="contact">
         <div>
-          <p class="eyebrow" data-i18n="contactEyebrow">联系</p>
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
           <h2 data-i18n="contactTitle">BEIERSDORF (Tianjin) Petroleum and Chemical Corporation</h2>
-          <p data-i18n="contactText">网站：www.beiersdorfchina.com · 电话：4000-987-256</p>
+          <p data-i18n="contactText">Website: www.beiersdorfchina.com · Tel: 4000-987-256</p>
         </div>
-        <a class="button primary light" href="tel:4000987256" data-i18n="callButton">拨打 4000-987-256</a>
+        <a class="button primary light" href="tel:4000987256" data-i18n="callButton">Call 4000-987-256</a>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>© 2026 BEIERSDORF / BFG Lubricants</span>
-      <span data-i18n="footerText">基于产品手册整理的多语言展示网站</span>
+      <span data-i18n="footerText">Multilingual showcase based on the product manual</span>
     </footer>
 
     <script src="./script.js"></script>
