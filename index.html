@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,11 +10,7 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="BEIERSDORF home">
-        <span class="brand-mark">BFG</span>
-        <span>
-          <strong>BEIERSDORF</strong>
-          <small data-i18n="brandSub">Petroleum & Chemical</small>
-        </span>
+        <img class="brand-logo" src="./assets/brand/beiersdorf-logo.png" alt="BEIERSDORF" />
       </a>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -27,9 +23,9 @@
         <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
       <div class="language-switch" aria-label="Language">
+        <button type="button" data-lang="ru" class="active">RU</button>
         <button type="button" data-lang="zh">中</button>
-        <button type="button" data-lang="en" class="active">EN</button>
-        <button type="button" data-lang="ru">RU</button>
+        <button type="button" data-lang="en">EN</button>
       </div>
     </header>
 
@@ -38,40 +34,48 @@
         <img class="hero-bg" src="./assets/company/hero-impact.png" alt="BFG lubricant products with oil splash" />
         <div class="hero-shade"></div>
         <div class="hero-copy">
-          <p class="eyebrow" data-i18n="heroEyebrow">Product Manual of Lubricant</p>
+          <div class="hero-brand-lockup">
+            <img src="./assets/brand/bfg-logo.jpg" alt="BFG" />
+            <span data-i18n="heroBrand">Lubricant Product Brand</span>
+          </div>
           <h1 data-i18n="heroTitle">Quality makes the difference. Classics make the brand.</h1>
-          <p class="hero-text" data-i18n="heroText">
-            BEIERSDORF develops lubricant and car care products for passenger cars, commercial vehicles and industrial driveline systems.
-          </p>
+          <p class="hero-text" data-i18n="heroText">BFG lubricant products cover passenger cars, commercial vehicles and industrial equipment.</p>
           <div class="hero-actions">
             <a class="button primary" href="#products" data-i18n="exploreProducts">Explore Products</a>
             <a class="button secondary" href="#company" data-i18n="learnCompany">Company Profile</a>
           </div>
         </div>
         <dl class="hero-metrics">
-          <div><dt>100,000t</dt><dd data-i18n="metricCapacity">DCS blending capacity line</dd></div>
-          <div><dt>60+</dt><dd data-i18n="metricInstruments">testing instruments</dd></div>
-          <div><dt>53</dt><dd data-i18n="metricProducts">detailed product pages</dd></div>
+          <div><dd data-i18n="metricOne">China Top Ten Lubricant Enterprise</dd></div>
+          <div><dd data-i18n="metricTwo">China Lubricant Top 100</dd></div>
+          <div><dd data-i18n="metricThree">National High-tech Enterprise</dd></div>
         </dl>
       </section>
 
       <section class="company-intro" id="company">
         <div class="intro-copy">
-          <p class="eyebrow" data-i18n="companyEyebrow">BEIERSDORF (Tianjin)</p>
-          <h2 data-i18n="companyTitle">A modern high-tech enterprise focused on lubricant R&D, testing and production.</h2>
-          <p data-i18n="companyText">
-            The company is committed to energy saving and environmental protection. It cooperates with testing institutions and focuses on lubricants and car care products that meet practical customer needs.
-          </p>
-          <div class="intro-points">
-            <span data-i18n="companyPoint1">North China factory</span>
-            <span data-i18n="companyPoint2">Testing and R&D center</span>
-            <span data-i18n="companyPoint3">Production and blending area</span>
-            <span data-i18n="companyPoint4">Raw material storage area</span>
+          <img class="section-logo" src="./assets/brand/beiersdorf-logo.png" alt="BEIERSDORF" />
+          <p class="eyebrow" data-i18n="companyEyebrow">BEIERSDORF (Tianjin) Petroleum and Chemical Corporation</p>
+          <h2 data-i18n="companyTitle">A modern high-tech enterprise committed to energy saving and environmental protection.</h2>
+          <div class="company-story">
+            <article>
+              <h3 data-i18n="companyBlock1Title">Company Profile</h3>
+              <p data-i18n="companyBlock1Text">With two R&D and testing centers, three production bases and close cooperation with the State Key Laboratory for Internal Combustion Engines, the company focuses on developing and producing lubricants and car care products that meet customer needs.</p>
+            </article>
+            <article>
+              <h3 data-i18n="companyBlock2Title">North China Factory</h3>
+              <p data-i18n="companyBlock2Text">The North China factory was put into operation in 2016. It consists of the comprehensive office area, testing and R&D center, production and blending area and raw material storage area.</p>
+            </article>
+            <article>
+              <h3 data-i18n="companyBlock3Title">Testing and Research Center</h3>
+              <p data-i18n="companyBlock3Text">The center has more than sixty sets of advanced testing and laboratory equipment for physical and chemical indicator testing, helping improve product quality and competitiveness.</p>
+            </article>
+            <article>
+              <h3 data-i18n="companyBlock4Title">Production and Team</h3>
+              <p data-i18n="companyBlock4Text">The 100,000-ton DCS automatic blending and filling equipment supports efficient, precise and environmentally friendly production. The company advocates honesty, friendliness, innovation, hard work and win-win cooperation.</p>
+            </article>
           </div>
         </div>
-        <figure class="manual-frame">
-          <img src="./assets/company/manual-cover.jpg" alt="BEIERSDORF product manual cover" />
-        </figure>
       </section>
 
       <section class="scene-section">
@@ -153,14 +157,6 @@
             </ul>
           </article>
         </div>
-        <div class="reference-strip">
-          <p data-i18n="lineReferenceText">
-            The manual product-line summary is kept here as a visual reference, while the cards above turn the same information into a web-friendly browsing experience.
-          </p>
-          <figure class="reference-image">
-            <img src="./assets/company/product-lines-reference.png" alt="BFG product line reference" loading="lazy" />
-          </figure>
-        </div>
       </section>
 
       <section class="section product-section" id="products">
@@ -223,6 +219,14 @@
           <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
           <h2 data-i18n="contactTitle">BEIERSDORF (Tianjin) Petroleum and Chemical Corporation</h2>
           <p data-i18n="contactText">Website: www.beiersdorfchina.com · Tel: 4000-987-256</p>
+        </div>
+        <div class="social-qr">
+          <figure>
+            <img src="./assets/brand/wechat-qr.png" alt="Follow WeChat" />
+          </figure>
+          <figure>
+            <img src="./assets/brand/tiktok-qr.png" alt="Follow TikTok" />
+          </figure>
         </div>
         <a class="button primary light" href="tel:4000987256" data-i18n="callButton">Call 4000-987-256</a>
       </section>
